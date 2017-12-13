@@ -1,0 +1,18 @@
+{
+  "name": "githubprintdev",
+  "version": "1.0.0",
+  "description": "materialweb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "printdev.github.io"
+  },
+  "author": "david",
+  "license": "ISC",
+  "dependencies": {
+    "material-components-web": "^0.27.0"
+  }
+}
