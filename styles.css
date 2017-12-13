@@ -1,0 +1,26 @@
+
+
+canvas {
+	
+	width: 100%;
+	
+	
+}
+
+body {
+	margin: 0;
+}
+
+.webgl-content {
+    position: relative;
+    width: 100%;
+    top: auto;
+    left: auto;
+    transform: translate(0, 0);
+}
+.webgl-content .footer{
+	visibility: hidden;
+	margin: 0;
+}
+
+
