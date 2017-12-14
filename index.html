@@ -7,7 +7,7 @@
 		  
 	
 		  
-	<link rel="shortcut icon" href="web/TemplateData/favicon.ico">
+	<!-- <link rel="shortcut icon" href="web/TemplateData/favicon.ico"> -->
     <link rel="stylesheet" href="web/TemplateData/style.css">
     <script src="web/TemplateData/UnityProgress.js"></script>  
     <script src="web/Build/UnityLoader.js"></script>
@@ -19,6 +19,42 @@
 		  
   </head>
   <body>
+  
+  <header class="mdc-toolbar">
+  <div class="mdc-toolbar__row">
+    <section class="mdc-toolbar__section mdc-toolbar__section--align-start">
+      <a href="#" class="material-icons mdc-toolbar__menu-icon">menu</a>
+      <span class="mdc-toolbar__title">Title</span>
+    </section>
+  </div>
+	</header>
+  
+  <nav class="mdc-list">
+  <a href="/wifi" class="mdc-list-item" data-mdc-auto-init="MDCRipple">
+    <i class="material-icons mdc-list-item__start-detail" aria-hidden="true">
+      network_wifi
+    </i>
+    Wi-Fi
+  </a>
+  <a href="/bluetooth" class="mdc-list-item" data-mdc-auto-init="MDCRipple">
+    <i class="material-icons mdc-list-item__start-detail" aria-hidden="true">
+      bluetooth
+    </i>
+    Bluetooth
+  </a>
+  <a href="/data-usage" class="mdc-list-item" data-mdc-auto-init="MDCRipple">
+    <i class="material-icons mdc-list-item__start-detail" aria-hidden="true">
+      data_usage
+    </i>
+    Data Usage
+  </a>
+</nav>
+<script>
+  mdc.autoInit();
+</script>
+  
+  
+  
     <h2 class="mdc-typography--display2">Hello, Material Components!</h2>
     <div class="mdc-text-field" data-mdc-auto-init="MDCTextField">
       <input type="text" class="mdc-text-field__input" id="demo-input">
