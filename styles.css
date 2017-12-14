@@ -20,7 +20,9 @@ body {
 	
 }
 
-
+#greeting-form > button {
+  margin-top: 8px;
+}
 
 .webgl-content {
     position: relative;
