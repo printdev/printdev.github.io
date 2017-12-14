@@ -7,9 +7,20 @@ canvas {
 	
 }
 
+
+
 body {
 	margin: 0;
 }
+
+.content {
+	
+	margin: 50px 220px;
+    display: inline-block;
+	
+}
+
+
 
 .webgl-content {
     position: relative;
